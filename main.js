@@ -4,5 +4,6 @@ document.getElementById("text-button").onclick = function() {
 };
 
 document.getElementById("AAA").onclick = function() {
+  alert("Hello");
   document.getElementById("text").innerHTML = "クリックされた！";
 };
