@@ -11,3 +11,7 @@ document.getElementById("btn-blue").onclick = function() {
 function btn-blueClick(){
   alert('ボタンがクリックされました');
 }
+
+document.getElementById("text-button").onclick = function() {
+  document.getElementById("text").innerHTML = "クリックされた！";
+};
